@@ -1,0 +1,23 @@
+{
+  "name": "taller-ia-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot educativo para que alumnos de primaria creen su propio robot con preguntas y respuestas",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "optionalDependencies": {
+    "mongodb": "^6.10.0"
+  },
+  "license": "MIT"
+}
